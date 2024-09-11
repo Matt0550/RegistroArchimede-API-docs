@@ -51,7 +51,7 @@ Copyright and all rights belong to the respective owners.
 | `password` | `string` | **Required**. Your password |
 | `tokenFirebase` | `string` | (Optional) Your Firebase token (i don't know what is this) |
 
-##### JSON Response
+**JSON Response**
 ```json
 {
   "classe": "",
@@ -86,7 +86,7 @@ Copyright and all rights belong to the respective owners.
   GET /loginRest/logout
 ```
 
-##### JSON Response
+**JSON Response**
 ```json
 {
   "ok": "ok"
@@ -106,7 +106,7 @@ Copyright and all rights belong to the respective owners.
 | :-------- | :------- | :-------------------------------- |
 | `firebaseToken` | `string` | **Required**. Your Firebase token |
 
-##### JSON Response
+**JSON Response**
 ```json
 {
   "stato": "archimede_2024.25"
@@ -122,7 +122,7 @@ Copyright and all rights belong to the respective owners.
 | :-------- | :------- | :-------------------------------- |
 | `period` | `int` | **Required**. The period of the absences (`0` or `1`) |
 
-##### JSON Response
+**JSON Response**
 > Not available yet
 
 #### Subjects list
@@ -130,7 +130,7 @@ Copyright and all rights belong to the respective owners.
   GET /AreaAlunno/materie/
 ```
 
-##### JSON Response
+**JSON Response**
 ```json
 [
   {
@@ -152,7 +152,7 @@ Copyright and all rights belong to the respective owners.
 | `corsoId` | `int` | **Required**. The course id. `-1` for all courses |
 | `period` | `int` | **Required**. The period of the grades (`0` or `1`) | 
 
-##### JSON Response
+**JSON Response**
 > Not available yet
 
 #### Delays and permits list
@@ -160,7 +160,7 @@ Copyright and all rights belong to the respective owners.
   GET /AreaAlunno/ritardiPermessi/
 ```
 
-##### JSON Response
+**JSON Response**
 > Not available yet
 
 #### Homework list
@@ -172,7 +172,7 @@ Copyright and all rights belong to the respective owners.
 | :-------- | :------- | :-------------------------------- |
 | `corsoId` | `int` | **Required**. The course id. `-1` for all courses |
 
-##### JSON Response
+**JSON Response**
 > Not available yet
 
 #### Arguments list
@@ -184,7 +184,7 @@ Copyright and all rights belong to the respective owners.
 | :-------- | :------- | :-------------------------------- |
 | `corsoId` | `int` | **Required**. The course id. `-1` for all courses |
 
-##### JSON Response
+**JSON Response**
 ```json
 [
   {
@@ -205,7 +205,7 @@ Copyright and all rights belong to the respective owners.
   GET /AreaAlunno/messaggi/
 ```
 
-##### JSON Response
+**JSON Response**
 ```json
 [
   {
@@ -236,7 +236,7 @@ Copyright and all rights belong to the respective owners.
 | :-------- | :------- | :-------------------------------- |
 | `messageId` | `int` | **Required**. The message id |
 
-##### JSON Response
+**JSON Response**
 ```
 OK
 ```
@@ -259,7 +259,7 @@ Probably with this endpoint the message is marked as read and the content is tak
   GET /AreaAlunno/noteDisciplinari/
 ```
 
-##### JSON Response
+**JSON Response**
 > Not available yet
 
 #### Teacher communication list
@@ -267,7 +267,7 @@ Probably with this endpoint the message is marked as read and the content is tak
   GET /AreaAlunno/comunicazioni/
 ```
 
-##### JSON Response
+**JSON Response**
 > Not available yet
 
 #### Documents list
@@ -279,7 +279,7 @@ Probably with this endpoint the message is marked as read and the content is tak
 | :-------- | :------- | :-------------------------------- |
 | `docId` | `int` | **Required**. The document id. `-1` for all documents |
 
-##### JSON Response
+**JSON Response**
 ```json
 [
   {
@@ -307,7 +307,7 @@ Probably with this endpoint the message is marked as read and the content is tak
   GET /AreaAlunno/bacheca/
 ```
 
-##### JSON Response
+**JSON Response**
 ```json
 [
   {
@@ -327,7 +327,7 @@ Probably with this endpoint the message is marked as read and the content is tak
   GET /AreaAlunno/fadPaginato/0/Tutti
 ```
 
-##### JSON Response
+**JSON Response**
 > Not available yet
 
 #### Video conferences list
@@ -339,7 +339,7 @@ Probably with this endpoint the message is marked as read and the content is tak
 | :-------- | :------- | :-------------------------------- |
 | `id` | `int` | **Required**. The call id. `-1` for all calls |
 
-##### JSON Response
+**JSON Response**
 > Not available yet
 
 #### Received notifications list
@@ -351,7 +351,7 @@ Probably with this endpoint the message is marked as read and the content is tak
 | :-------- | :------- | :-------------------------------- |
 | `deviceId` | `string` | **Required**. Your device id |
 
-##### JSON Response
+**JSON Response**
 ```json
 [
   {
@@ -373,7 +373,7 @@ Probably with this endpoint the message is marked as read and the content is tak
 | :-------- | :------- | :-------------------------------- |
 | `firebaseToken` | `string` | **Required**. Your Firebase token |
 
-##### JSON Response
+**JSON Response**
 ```
 ok
 ```
