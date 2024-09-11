@@ -28,11 +28,42 @@ This project is for educational purposes only. Please use this project responsib
 
 Copyright and all rights belong to the respective owners.
 
- 
+## Table of Contents
+- [Table of Contents](#table-of-contents)
+- [API Endpoints](#api-endpoints)
+  - [Base URL](#base-url)
+  - [Authentication](#authentication)
+    - [Login/User Info](#loginuser-info)
+    - [Logout](#logout)
+  - [Student Area (Alunno) (Login required)](#student-area-alunno-login-required)
+    - [Subscription type](#subscription-type)
+    - [Absences list](#absences-list)
+    - [Subjects list](#subjects-list)
+    - [Grades list](#grades-list)
+    - [Delays and permits list](#delays-and-permits-list)
+    - [Homework list](#homework-list)
+    - [Arguments list](#arguments-list)
+    - [Messages list](#messages-list)
+    - [Read message](#read-message)
+    - [Download attachment](#download-attachment)
+    - [Discipline notes list](#discipline-notes-list)
+    - [Teacher communication list](#teacher-communication-list)
+    - [Documents list](#documents-list)
+    - [Document download](#document-download)
+    - [Teachers' bulletin board](#teachers-bulletin-board)
+    - [FAD (Formazione a Distanza) list](#fad-formazione-a-distanza-list)
+    - [Video conferences list](#video-conferences-list)
+    - [Received notifications list](#received-notifications-list)
+  - [Misc](#misc)
+    - [Register firebase token (login required)](#register-firebase-token-login-required)
+- [Help - feedback](#help---feedback)
+- [License](#license)
+- [Support me](#support-me)
+
 ## API Endpoints
 >[!WARNING]
 > All listed JSON responses are given only when a request is successful. If a request fails the response may be in html or with an error code (not tested).
-> 
+
 ### Base URL
 ```
   https://app.registroarchimede.it/archimede/seam/resource/rest
