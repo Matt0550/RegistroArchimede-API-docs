@@ -135,7 +135,7 @@ Copyright and all rights belong to the respective owners.
 [
   {
     "descrizione": "",
-    "corso_id": 000,
+    "corso_id": 123,
     "docente": null,
     "img_docente": "base64"
   },
@@ -213,14 +213,14 @@ Copyright and all rights belong to the respective owners.
     "messaggio": "",
     "mittente": "",
     "letto": true,
-    "id": 0000,
+    "id": 123,
     "data": "yyyy-MM-dd",
     "allegati": [
       {
         "file": "{path}",
         "nome": "{filename}",
-        "id": 000,
-        "size": 000
+        "id": 123,
+        "size": 123
       },
     ]
   },
