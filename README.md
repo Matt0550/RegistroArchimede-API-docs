@@ -6,8 +6,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="s://github.com/Matt0550/RegistroArchimede-API-docs">
-    <img src="s://raw.githubusercontent.com/Matt0550/public-gaac/main/uploads/registro-archimede-logo-api-docs.png" alt="Logo" height="150">
+  <a href="https://github.com/Matt0550/RegistroArchimede-API-docs">
+    <img src="https://raw.githubusercontent.com/Matt0550/public-gaac/main/uploads/registro-archimede-logo-api-docs.png" alt="Logo" height="150">
   </a>
 
   <h3 align="center">Registro Archimede Unofficial API DOCS</h3>
@@ -16,13 +16,13 @@
     All the information about the endpoints of the Registro Archimede App.
     <br />
     <br />
-    <a href="s://github.com/Matt0550/RegistroArchimede-API-docs/pulls">Contribute</a>
+    <a href="https://github.com/Matt0550/RegistroArchimede-API-docs/pulls">Contribute</a>
   </p>
 </div>
 
 All the information about the endpoints of the Registro Archimede App.
-The endpoints was discovered using [ toolkit](s://toolkit.com/) 
-(or [MITM Proxy](s://mitmproxy.org/)) and the app on rooted Android Emulator with Android 14 (API 35). Rooted with [Magisk](s://magiskmanager.com/) to bypass certificate pinning.
+The endpoints was discovered using [HTTP toolkit](https://httptoolkit.com/) 
+(or [MITM Proxy](https://mitmproxy.org/)) and the app on rooted Android Emulator with Android 14 (API 35). Rooted with [Magisk](https://magiskmanager.com/) to bypass certificate pinning.
 
 This project is for educational purposes only. Please use this project responsibly. 
 
@@ -35,7 +35,7 @@ Copyright and all rights belong to the respective owners.
 > 
 ### Base URL
 ```
-  s://app.registroarchimede.it/archimede/seam/resource/rest
+  https://app.registroarchimede.it/archimede/seam/resource/rest
 ```
 
 ### Authentication
@@ -381,31 +381,31 @@ ok
 ## Help - feedback
 You can contact me on:
 
-Discord: s://go.matteosillitti.it/discord
+Discord: https://go.matteosillitti.it/discord
 
-Telegram: s://go.matteosillitti.it/telegram
+Telegram: https://go.matteosillitti.it/telegram
 
 Mail: <a href="mailto:mail@matteosillitti.it">me@matteosillitti.it</a>
 
 ## License
 
-[GNU GPLv3](s://choosealicense.com/licenses/gpl-3.0/)
+[GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/)
 
 ## Support me
 
-[![ko-fi](s://ko-fi.com/img/githubbutton_sm.svg)](s://ko-fi.com/matt05)
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/matt05)
 
-[![buy-me-a-coffee](s://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](s://www.buymeacoffee.com/Matt0550)
+[![buy-me-a-coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/Matt0550)
 
-[![paypal](s://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](s://paypal.me/sillittimatteo)
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/sillittimatteo)
 
-[contributors-shield]: s://img.shields.io/github/contributors/Matt0550/RegistroArchimede-API-docs.svg?style=for-the-badge
-[contributors-url]: s://github.com/Matt0550/RegistroArchimede-API-docs/graphs/contributors
-[forks-shield]: s://img.shields.io/github/forks/Matt0550/RegistroArchimede-API-docs.svg?style=for-the-badge
-[forks-url]: s://github.com/Matt0550/RegistroArchimede-API-docs/network/members
-[stars-shield]: s://img.shields.io/github/stars/Matt0550/RegistroArchimede-API-docs.svg?style=for-the-badge
-[stars-url]: s://github.com/Matt0550/RegistroArchimede-API-docs/stargazers
-[license-shield]: s://img.shields.io/github/license/Matt0550/RegistroArchimede-API-docs.svg?style=for-the-badge
-[license-url]: s://github.com/Matt0550/RegistroArchimede-API-docs/blob/master/LICENSE
-[discord-shield]: s://img.shields.io/discord/828990499507404820?style=for-the-badge
-[discord-url]: s://go.matteosillitti.it/discord
+[contributors-shield]: https://img.shields.io/github/contributors/Matt0550/RegistroArchimede-API-docs.svg?style=for-the-badge
+[contributors-url]: https://github.com/Matt0550/RegistroArchimede-API-docs/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Matt0550/RegistroArchimede-API-docs.svg?style=for-the-badge
+[forks-url]: https://github.com/Matt0550/RegistroArchimede-API-docs/network/members
+[stars-shield]: https://img.shields.io/github/stars/Matt0550/RegistroArchimede-API-docs.svg?style=for-the-badge
+[stars-url]: https://github.com/Matt0550/RegistroArchimede-API-docs/stargazers
+[license-shield]: https://img.shields.io/github/license/Matt0550/RegistroArchimede-API-docs.svg?style=for-the-badge
+[license-url]: https://github.com/Matt0550/RegistroArchimede-API-docs/blob/master/LICENSE
+[discord-shield]: https://img.shields.io/discord/828990499507404820?style=for-the-badge
+[discord-url]: https://go.matteosillitti.it/discord
