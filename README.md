@@ -204,7 +204,15 @@ Copyright and all rights belong to the respective owners.
 | `corsoId` | `int` | **Required**. The course id. `-1` for all courses |
 
 **JSON Response**
-> Not available yet
+```json
+[
+  {
+    "data": "yyyy-MM-dd",
+    "materia": "",
+    "compito": ""
+  }
+]
+```
 
 #### Arguments list
 ```
@@ -359,7 +367,26 @@ Probably with this endpoint the message is marked as read and the content is tak
 ```
 
 **JSON Response**
-> Not available yet
+```json
+[
+  {
+    "oggetto": "",
+    "messaggio": "",
+    "mittente": "",
+    "letto": false,
+    "id": 1970859,
+    "data": 1726125634000,
+    "dataConsegna": null,
+    "materia": "",
+    "notePersonali": "",
+    "idNote": 10025176,
+    "completato": false,
+    "daConsegnare": false,
+    "allegati": [],
+    "consegne": []
+  }
+]
+```
 
 #### Video conferences list
 ```
