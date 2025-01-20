@@ -439,11 +439,11 @@ ok
 ## Help - feedback
 You can contact me on:
 
-Discord: https://go.matteosillitti.it/discord
+Discord: https://matt05.it/discord
 
-Telegram: https://go.matteosillitti.it/telegram
+Telegram: https://matt05.it/telegram
 
-Mail: <a href="mailto:mail@matteosillitti.it">me@matteosillitti.it</a>
+Mail: <a href="mailto:mail@matteosillitti.com">mail@matteosillitti.com</a>
 
 ## License
 
@@ -466,4 +466,4 @@ Mail: <a href="mailto:mail@matteosillitti.it">me@matteosillitti.it</a>
 [license-shield]: https://img.shields.io/github/license/Matt0550/RegistroArchimede-API-docs.svg?style=for-the-badge
 [license-url]: https://github.com/Matt0550/RegistroArchimede-API-docs/blob/master/LICENSE
 [discord-shield]: https://img.shields.io/discord/828990499507404820?style=for-the-badge
-[discord-url]: https://go.matteosillitti.it/discord
+[discord-url]: https://matt05.it/discord
